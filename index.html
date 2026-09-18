@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Tech Portal | AWS Hosted</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
 
+  <!-- Animated Background Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Cloud<span>Pulse</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+      </ul>
+      <a href="#cta" class="nav-btn">Launch Console</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <span class="badge">Hosted on AWS S3 & CloudFront</span>
+      <h1>Build the Future on <span class="gradient-text">Cloud Native</span> Systems</h1>
+      <p>High-performance, secure, and scalable web solutions powered by modern cloud infrastructure and modern frontend design.</p>
+      <div class="hero-actions">
+        <a href="#features" class="btn primary-btn">Explore Features</a>
+        <a href="#cta" class="btn secondary-btn">Deploy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Cards Section -->
+  <section id="features" class="features-section">
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <h3>Ultra Fast Edge CDN</h3>
+      <p>Delivered using AWS CloudFront global edge locations for ultra-low latency.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">🔒</div>
+      <h3>Enterprise Security</h3>
+      <p>Encrypted data in transit and at rest with automated HTTPS via AWS Certificate Manager.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">🚀</div>
+      <h3>Serverless Power</h3>
+      <p>Zero server management costs using AWS S3 dynamic static website hosting setup.</p>
+    </div>
+  </section>
+
+  <!-- Call To Action Banner -->
+  <section id="cta" class="cta-section">
+    <div class="glass-banner">
+      <h2>Ready to deploy your next app?</h2>
+      <p>Practice hosting static websites using S3, Route53, and CloudFront for free.</p>
+      <button class="cta-btn" onclick="alert('AWS Practice Deployment Ready!')">Get Started Free</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 CloudPulse | Powered by AWS Free Tier Services</p>
+  </footer>
+
+</body>
+</html>
